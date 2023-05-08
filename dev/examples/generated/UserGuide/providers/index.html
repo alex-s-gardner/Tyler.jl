@@ -489,26 +489,26 @@
 <div class="highlight"><pre><span></span><code><span class="n">providers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TileProviders</span><span class="o">.</span><span class="n">list_providers</span><span class="p">()</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>Dict{Function, Vector{Symbol}} with 39 entries:
-  USGS                  =&gt; [:USTopo, :USImagery, :USImageryTopo]
-  CartoDB               =&gt; [:Positron, :PositronNoLabels, :PositronOnlyLabels, …
-  Thunderforest         =&gt; [:OpenCycleMap, :Transport, :TransportDark, :SpinalM…
-  Stamen                =&gt; [:Toner, :TonerBackground, :TonerHybrid, :TonerLines…
-  SafeCast              =&gt; []
-  HERE                  =&gt; [:normalDay, :normalDayCustom, :normalDayGrey, :norm…
-  FreeMapSK             =&gt; []
-  OpenFireMap           =&gt; []
-  OpenStreetMap         =&gt; [:Mapnik, :DE, :CH, :France, :HOT, :BZH]
-  WaymarkedTrails       =&gt; [:hiking, :cycling, :mtb, :slopes, :riding, :skating]
-  Esri                  =&gt; [:WorldStreetMap, :DeLorme, :WorldTopoMap, :WorldIma…
-  NASAGIBSTimeseries    =&gt; [:Agricultural_Lands_Croplands_2000, :Agricultural_L…
-  OpenAIP               =&gt; []
-  SwissFederalGeoportal =&gt; [:NationalMapColor, :NationalMapGrey, :SWISSIMAGE]
-  OpenTopoMap           =&gt; []
-  OpenSnowMap           =&gt; [:pistes]
-  OPNVKarte             =&gt; []
-  OpenWeatherMap        =&gt; [:Clouds, :CloudsClassic, :Precipitation, :Precipita…
-  Jawg                  =&gt; [:Streets, :Terrain, :Sunny, :Dark, :Light, :Matrix]
-  ⋮                     =&gt; ⋮
+  JusticeMap     =&gt; [:income, :americanIndian, :asian, :black, :hispanic, :mult…
+  AzureMaps      =&gt; [:MicrosoftImagery, :MicrosoftBaseDarkGrey, :MicrosoftBaseR…
+  MapTiler       =&gt; [:Streets, :Basic, :Bright, :Pastel, :Positron, :Hybrid, :T…
+  USGS           =&gt; [:USTopo, :USImagery, :USImageryTopo]
+  OpenSnowMap    =&gt; [:pistes]
+  OpenRailwayMap =&gt; []
+  OpenFireMap    =&gt; []
+  BasemapAT      =&gt; [:basemap, :grau, :overlay, :terrain, :surface, :highdpi, :…
+  Google         =&gt; [:satelite, :roadmap, :terrain, :hybrid]
+  CyclOSM        =&gt; []
+  OpenStreetMap  =&gt; [:Mapnik, :DE, :CH, :France, :HOT, :BZH]
+  OPNVKarte      =&gt; []
+  MapBox         =&gt; []
+  SafeCast       =&gt; []
+  MapTilesAPI    =&gt; [:OSMEnglish, :OSMFrancais, :OSMEspagnol]
+  OpenTopoMap    =&gt; []
+  Stamen         =&gt; [:Toner, :TonerBackground, :TonerHybrid, :TonerLines, :Tone…
+  OpenWeatherMap =&gt; [:Clouds, :CloudsClassic, :Precipitation, :PrecipitationCla…
+  nlmaps         =&gt; [:standaard, :pastel, :grijs, :water, :luchtfoto]
+  ⋮              =&gt; ⋮
 </code></pre></div>
 <p>Try and see which ones work, and report back please.</p>
 <div class="highlight"><pre><span></span><code><span class="c">##london = Rect2f(-0.0921, 51.5, 0.04, 0.025)</span>
