@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
     
     
       
@@ -558,26 +558,26 @@
 <div class="highlight"><pre><span></span><code><span class="n">providers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TileProviders</span><span class="o">.</span><span class="n">list_providers</span><span class="p">()</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>Dict{Function, Vector{Symbol}} with 39 entries:
-  OpenStreetMap    =&gt; [:Mapnik, :DE, :CH, :France, :HOT, :BZH]
-  OPNVKarte        =&gt; []
-  Stamen           =&gt; [:Toner, :TonerBackground, :TonerHybrid, :TonerLines, :To…
-  Jawg             =&gt; [:Streets, :Terrain, :Sunny, :Dark, :Light, :Matrix]
-  Thunderforest    =&gt; [:OpenCycleMap, :Transport, :TransportDark, :SpinalMap, :…
-  Stadia           =&gt; [:AlidadeSmooth, :AlidadeSmoothDark, :OSMBright, :Outdoor…
-  OpenRailwayMap   =&gt; []
-  MapBox           =&gt; []
-  HERE             =&gt; [:normalDay, :normalDayCustom, :normalDayGrey, :normalDay…
-  BasemapAT        =&gt; [:basemap, :grau, :overlay, :terrain, :surface, :highdpi,…
-  CartoDB          =&gt; [:Positron, :PositronNoLabels, :PositronOnlyLabels, :Dark…
-  OneMapSG         =&gt; [:Default, :Night, :Original, :Grey, :LandLot]
-  OpenSnowMap      =&gt; [:pistes]
-  HEREv3           =&gt; [:normalDay, :normalDayCustom, :normalDayGrey, :normalDay…
-  TomTom           =&gt; [:Basic, :Hybrid, :Labels]
-  MapTilesAPI      =&gt; [:OSMEnglish, :OSMFrancais, :OSMEspagnol]
-  OpenTopoMap      =&gt; []
-  GeoportailFrance =&gt; [:plan, :parcels, :orthos]
-  NLS              =&gt; []
-  ⋮                =&gt; ⋮
+  OpenFireMap        =&gt; []
+  NASAGIBS           =&gt; [:ModisTerraTrueColorCR, :ModisTerraBands367CR, :ViirsE…
+  SafeCast           =&gt; []
+  MtbMap             =&gt; []
+  Jawg               =&gt; [:Streets, :Terrain, :Sunny, :Dark, :Light, :Matrix]
+  MapTilesAPI        =&gt; [:OSMEnglish, :OSMFrancais, :OSMEspagnol]
+  CyclOSM            =&gt; []
+  GeoportailFrance   =&gt; [:plan, :parcels, :orthos]
+  OpenAIP            =&gt; []
+  MapBox             =&gt; []
+  OpenSnowMap        =&gt; [:pistes]
+  nlmaps             =&gt; [:standaard, :pastel, :grijs, :water, :luchtfoto]
+  JusticeMap         =&gt; [:income, :americanIndian, :asian, :black, :hispanic, :…
+  Esri               =&gt; [:WorldStreetMap, :DeLorme, :WorldTopoMap, :WorldImager…
+  FreeMapSK          =&gt; []
+  OpenWeatherMap     =&gt; [:Clouds, :CloudsClassic, :Precipitation, :Precipitatio…
+  CartoDB            =&gt; [:Positron, :PositronNoLabels, :PositronOnlyLabels, :Da…
+  USGS               =&gt; [:USTopo, :USImagery, :USImageryTopo]
+  Google             =&gt; [:satelite, :roadmap, :terrain, :hybrid]
+  ⋮                  =&gt; ⋮
 </code></pre></div>
 <p>Try and see which ones work, and report back please.</p>
 <div class="highlight"><pre><span></span><code><span class="c">##london = Rect2f(-0.0921, 51.5, 0.04, 0.025)</span>
